@@ -16,7 +16,6 @@ div {
         box-shadow: 20px 20px 50px 10px white inset;
         }
 
-div.ex1 {
-        background-color:none; border: 5px dashed rgb(202, 61, 68);}
-div.ex2 {
-                background-color: rgb(141, 47, 136);}
+div.ex1 { background-color:none; border: 5px dashed rgb(202, 61, 68);}
+div.ex2 {background-color: rgb(116, 106, 82);}
+div.ex3 {background-color:none; border: 5px dashed rgb(202, 61, 68);}
