@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&amp;display=swap" rel="stylesheet">
+
+    <title>Example -- Variable Font </title>
+    <!--Font https://demos.tyfromtheinternet.com/leaguemonovariable/ -->
+    <style>
+        @font-face {
+            font-family: "League-Mono-Var";
+            src: url("css/LeagueMono-2.300/variable/WOFF2/LeagueMono-VF.woff2");
+        }
+        
+        .zeile {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 4rem;
+        }
+        
+        .zeile span {
+            font-family: 'League-Mono-Var', sans-serif;
+            text-rendering: geometricPrecision;
+            font-variation-settings: "wght" 100, "wdth" 50;
+            animation-name: stretch;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        
+        .one {
+            animation-delay: 0.5s;
+        }
+        
+        .two {
+            animation-delay: 1s;
+        }
+        
+        .three {
+            animation-delay: 1.5s;
+        }
+        
+        .four {
+            animation-delay: 1.5s;
+        }
+        
+        @keyframes stretch {
+            0% {
+                font-variation-settings: "wght" 100, "wdth" 50;
+            }
+            50% {
+                font-variation-settings: "wght" 800, "wdth" 200;
+            }
+            100% {
+                font-variation-settings: "wght" 100, "wdth" 50;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="animation">
+        <div class="zeile">
+            <span class="one">M</span><span class="two">O</span><span class="three">V</span><span class="four">E</span>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

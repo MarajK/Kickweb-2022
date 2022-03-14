@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Example -- Absolute Position and Transform</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            writing-mode: vertical-lr;
+        }
+        
+        .zeile {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 4rem;
+            font-family: 'Montserrat', sans-serif;
+            transition: all 1s;
+        }
+        
+        .transform {
+            transform: rotate(180deg);
+            transform-origin: center;
+            border: 3px solid blueviolet;
+        }
+        
+        .transform:hover .second {
+            transform: translateY(30px);
+        }
+        
+        .transform:hover .third {
+            transform: translateY(40px);
+        }
+        
+        .transform:hover .forth {
+            transform: translateY(60px);
+        }
+        
+        .transform:hover .fifth {
+            transform: translateY(80px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="transform">
+        <div class="zeile first">oh oh oh </div>
+        <div class="zeile second">oh oh oh </div>
+        <div class="zeile third">oh oh oh </div>
+        <div class="zeile forth">oh oh oh </div>
+        <div class="zeile fifth">oh oh oh </div>
+    </div>
+
+</body>
+
+</html>
