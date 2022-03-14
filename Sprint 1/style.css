@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong|Raleway|Roboto Mono|Pacifico|Shadows Into Light");
+body {
+    font-family: "raleway";
+    background-color: #031c41;
+    color: aliceblue;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+p {
+    font-family: "raleway";
+}
+
+h1 {
+    font-size: 200px;
+    font-family: "raleway";
+    text-align: center;
+    margin-top: 220px;
+    text-shadow: 0 0 5px rgb(248, 246, 246);
+}
+
+h2 {
+    font-size: 80px;
+    font-family: "Audiowide";
+    text-align: center;
+    margin-top: 100px;
+    text-shadow: 0 0 5px rgb(248, 246, 246);
+}
+
+.love {
+    font-family: "Shadows Into Light";
+    font-size: 300px;
+    color: crimson;
+    text-shadow: 0 0 5px crimson;
+}
+
+.infinity {
+    font-family: "Shadows Into Light";
+    font-size: 300px;
+    color: rgb(122, 191, 236);
+    text-shadow: 0 0 5px rgb(122, 191, 236);
+}
+
+div {
+    font-family: "raleway";
+}
+
+p,
+div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+table {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.horizontal {
+    writing-mode: horizontal-tb;
+}
+
+.vertical {
+    writing-mode: vertical-lr;
+}
+
+td {
+    padding: 0px;
+}

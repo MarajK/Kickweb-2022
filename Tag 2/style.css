@@ -1,20 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
-
-
-body{
+body {
     font-family: 'Shizuru', cursive;
-
 }
 
 h1 {
     color: aqua;
-
+    font-family: 'Shizuru';
 }
 
 @font-face {
     font-family: "AachenStd-Bold";
     src: url(AachenStd-Bold.otf);
-  }
-  p {
-      font-family:"AachenStd-Bold";
-  }
+}
+
+p {
+    font-family: "AachenStd-Bold";
+}
