@@ -30,8 +30,8 @@ h2 {
 .love {
     font-family: "Shadows Into Light";
     font-size: 300px;
-    color: crimson;
-    text-shadow: 0 0 5px crimson;
+    color: rgb(196, 62, 62);
+    text-shadow: 0 0 5px rgb(196, 62, 62);
 }
 
 .infinity {
