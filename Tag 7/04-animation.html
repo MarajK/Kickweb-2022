@@ -15,30 +15,38 @@
             left: 10px;
             font-size: 4rem;
             font-family: 'Montserrat', sans-serif;
-           
+            animation-name: accordeon;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
         }
         
         .second {
-           
             opacity: 0.9;
+            animation-delay: 0.5s;
         }
         
         .third {
-            
             opacity: 0.8;
+            animation-duration: 1s;
         }
         
         .forth {
-            
             opacity: 0.7;
+            animation-duration: 1.5s;
         }
         
         .fifth {
-            
             opacity: 0.6;
         }
         
-       
+        @keyframes accordeon {
+            0% {
+                transform: translateY(0)
+            }
+            100% {
+                transform: translateY(200px);
+            }
+        }
     </style>
 </head>
 
