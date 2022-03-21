@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong");
+body {
+    font-family: "Sofia";
+    background-color: rgb(221, 221, 221);
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+p,
+div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+table {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.horizontal {
+    writing-mode: horizontal-tb;
+}
+
+.vertical {
+    writing-mode: vertical-lr;
+}
+
+td {
+    padding: 0px;
+}
