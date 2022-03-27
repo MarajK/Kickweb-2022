@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Audiowide|Roboto Condensed|Palette Mosaic");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700|Palette Mosaic");
  :root {
-    --container-color: #ddcdff;
+    --container-color: #ddcdff00;
     --item-color: #ddcdff00;
 }
 
@@ -17,10 +17,20 @@ p {
     margin: 0;
 }
 
+.Roboto {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
 .container.info {
-    writing-mode: vertical-rl;
     position: fixed;
-    font-family: "Roboto Condensed";
+    color: white;
+    margin: 20px;
+}
+
+.intem-legende {
+    writing-mode: vertical-lr;
 }
 
 .container {
