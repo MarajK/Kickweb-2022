@@ -6,7 +6,7 @@
 
 html,
 body {
-    background-color: #363636;
+    background-color: #272727;
     color: black;
     margin: 0;
     padding: 0;
@@ -17,19 +17,52 @@ p {
     margin: 0;
 }
 
-.Roboto {
+h1 {
+    font-size: 200px;
+    text-align: center;
+    color: white;
+}
+
+.textcolor {
+    color: darksalmon;
+}
+
+.thin {
+    font-weight: 300;
+}
+
+table {
+    font-family: "Palette Mosaic";
+}
+
+.roboto {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.Legende {
     font-family: 'Roboto Condensed', sans-serif;
     font-style: normal;
     font-weight: 300;
+    text-align: right;
+    color: white;
+}
+
+.navigation {
+    font-style: normal;
+    font-weight: 1000;
+    text-align: right;
+    color: white;
+    margin: 2%;
+    font-size: px;
 }
 
 .container.info {
     position: fixed;
     color: white;
-    margin: 20px;
+    margin: 2%;
 }
 
-.intem-legende {
+.item-legende {
     writing-mode: vertical-lr;
 }
 
@@ -81,4 +114,12 @@ p {
     to {
         transform: scale(4);
     }
+}
+
+.horizontal {
+    writing-mode: horizontal-tb;
+}
+
+.vertical {
+    writing-mode: vertical-lr;
 }
