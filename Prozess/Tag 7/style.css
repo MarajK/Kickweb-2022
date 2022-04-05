@@ -9,8 +9,8 @@ body {
 
 .zeile {
     position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 10px;
+    left: 10px;
     font-size: 4rem;
     font-family: 'Palette Mosaic';
     animation-name: oh;
