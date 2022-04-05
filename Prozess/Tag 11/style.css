@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700|Palette Mosaic");
+.back-a:hover {
+    background: linear-gradient(180deg, #35d5fd 0%, #e355ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 40px;
+    margin: 0;
+    padding: auto;
+    font-size: 3em;
+    font-family: 'Palette Mosaic';
+}
+
+.gradient2 {
+    height: 900px;
+    position: relative;
+    background: linear-gradient(45deg, #090909, #508ce7);
+}
+
+image {
+    align-items: center;
+}
