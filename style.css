@@ -100,7 +100,14 @@ table {
     color: white;
 }
 
-.astronaut {}
+.astronaut {
+    padding: relative;
+}
+
+.astronaut img {
+    position: absolute;
+    z-index: 2;
+}
 
 
 /* Container und so */
@@ -323,5 +330,8 @@ table {
 @media screen and (max-width:960px) {
     .container.main {
         flex-wrap: wrap;
+    }
+    h1 {
+        font-size: 130px;
     }
 }
